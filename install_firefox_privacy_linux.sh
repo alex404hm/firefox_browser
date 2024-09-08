@@ -1,13 +1,10 @@
 #!/bin/bash
 
-# Firefox Privacy & Security Setup Script (Enhanced Version)
-# Version: 2.0
+# Cross-platform Firefox Privacy & Security Setup Script (Linux Version)
 
 # Define colors for output
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
-
-# Log file for troubleshooting
 LOG_FILE="firefox_privacy_setup.log"
 
 # Function to update the system and install prerequisites
@@ -100,7 +97,7 @@ install_tor() {
 
 # Menu to guide user
 display_menu() {
-    echo -e "${GREEN}Firefox Privacy & Security Setup Script${NC}"
+    echo -e "${GREEN}Linux Firefox Privacy & Security Setup Script${NC}"
     echo "1. Apply Arkenfox user.js"
     echo "2. Install privacy extensions"
     echo "3. Apply about:config changes"
